@@ -4,33 +4,42 @@ This tool generates Solana wallet addresses and checks their transaction activit
 
 ## Getting Started
 
-### Prerequisites:
+### Prerequisites
+
 - Node.js and npm installed on your machine
 - An environment file (.env) with your Solana mnemonic phrase (MNEMONIC) and other configurations (refer to .env.example)
 
-### Installation:
+### Installation
 
-1. Clone the repository: 
-git clone https://github.com/your-username/solana-address-generator.git
+1. Clone the repository:
 
+    ```bash
+    git clone https://github.com/your-username/solana-address-generator.git
+    ```
 
 2. Navigate to the project directory:
-cd solana-address-generator
+
+    ```bash
+    cd solana-address-generator
+    ```
 
 3. Install the dependencies:
 
-npm install
+    ```bash
+    npm install
+    ```
 
 ## Usage
 
-1. Edit the .env file with your Solana mnemonic phrase.
+1. Edit the `.env` file with your Solana mnemonic phrase.
 
 2. Run the script:
 
-npm start
+    ```bash
+    npm start
+    ```
 
-
-The script generates Solana wallet addresses, checks their activity, and saves the results in solana_addresses.csv.
+The script generates Solana wallet addresses, checks their activity, and saves the results in `solana_addresses.csv`.
 
 ## Configuration
 
